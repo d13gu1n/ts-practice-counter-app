@@ -56,34 +56,10 @@
             <div id="counter" class="counter">0</div>
                 <div class="buttons">
                     <button id="increment">Increment</button>
-                    <button id="decrement">Decrememt</button>
+                    <button id="decrement">Decrement</button>
                     <button id="reset">Reset</button>
                 </div>
         </div>
-        <script>
-            var counter = document.getElementById("counter");
-            var incrementBtn = document.getElementById("increment");
-            var decrementBtn = document.getElementById("decrement");
-            var resetBtn = document.getElementById("reset");
-            var count = 0;
-
-            function updateCounter() {
-                counter.textContent = count.ToString();
-            }
-            incrementBtn.addEventListener("click", function() {
-                count++;
-                updateCounter();
-            });
-            decrementBtn.addEventListener("click", function() {
-                if (count > 0) {
-                    count--;
-                    updateCounter();
-                }
-            });
-            resetBtn.addEventListener("click", function() {
-                count = 0;
-                updateCounter();
-            })
-        </script>
+        <script src="task.js"></script>
     </body>
 </html>
