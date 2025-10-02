@@ -12,7 +12,3 @@ npm-debug.log*
 
 # IDE files
 .vscode/
-
-# JS files generated from TS
-*.js
-*.js.map

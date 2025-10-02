@@ -1,5 +1,3 @@
-// TODO: Install webpack to be able to use compiled TS code on HTML files
-
 const counter = document.getElementById("counter") as HTMLDivElement;
 const incrementBtn = document.getElementById("increment") as HTMLButtonElement;
 const decrementBtn = document.getElementById("decrement") as HTMLButtonElement;
